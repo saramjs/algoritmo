@@ -20,7 +20,7 @@ int main() {
         int unidades = abc % 10;
         
         if (centenas - unidades < 2) {
-            printf("A diferença entre as centenas e unidades não é maior ou igual a 2.\n");
+            printf("A diferenca entre as centenas e unidades nao e maior ou igual a 2.\n");
         } else {
         	
             //Inverter a ordem dos algarismos formando o número cba
