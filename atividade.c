@@ -5,13 +5,13 @@ int main() {
     
     // Solicitar que o usuário digite um número abc de 3 algarismos
     
-    printf("Digite um número de 3 algarismos (100 <= x <= 999): ");
+    printf("Digite um numero de 3 algarismos (100 <= x <= 999): ");
     scanf("%d", &abc);
     
     // Verificar se o número tem 3 algarismos
     
     if (abc < 100 || abc > 999) {
-        printf("O número não possui 3 algarismos.\n");
+        printf("O numero nao possui 3 algarismos.\n");
     } else {
     	
         // Verificar se a diferença entre algarismos das centenas e das unidades é maior ou igual a 2
